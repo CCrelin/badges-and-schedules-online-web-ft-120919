@@ -16,4 +16,6 @@ def assign_rooms(attendees)
   new_array
 end 
 
-def conference_badges
+def printer(attendees)
+
+end
