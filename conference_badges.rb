@@ -11,7 +11,9 @@ end
 
 def assign_rooms(attendees)
   new_array =[]
-  attendees.each do |i| new_array << "Hello, #{i}! You'll be assigned to room #{i.size}!"
+  rooms = 0
+  attendees.each do |i| new_array << "Hello, #{i}! You'll be assigned to room #{rooms +1}!"
+  
   end
   new_array
 end 
