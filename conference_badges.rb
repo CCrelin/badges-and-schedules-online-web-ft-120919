@@ -11,5 +11,5 @@ end
 
 def assign_rooms(attendees)
   new_array =[]
-  attendees.each so |i
+  rooms = attendees.size
 end 
