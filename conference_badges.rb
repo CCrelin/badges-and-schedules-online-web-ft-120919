@@ -3,5 +3,5 @@ return "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(attendees)
-  attendees.split(" Hello, my name is ")
+  attendees.map
 end
